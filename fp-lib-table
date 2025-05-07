@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "bh23")(type "KiCad")(uri "${KIPRJMOD}/component_local/bh23.pretty")(options "")(descr ""))
+)

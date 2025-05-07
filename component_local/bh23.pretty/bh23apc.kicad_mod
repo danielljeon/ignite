@@ -1,0 +1,167 @@
+(footprint "bh23apc"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9808e272-01e4-4006-b75b-25caa67bba68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "bh23apc"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7ab4403-37a6-4b13-996f-d963f85c8f53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a87224ef-83fb-4bda-a949-ad18402287c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8883b64-6b3a-4740-a1ff-2466d073246d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa96db5b-b3a2-4e97-84c5-7311b4a26daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0e198f-8523-49b2-82b7-3e8a260f8a12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -18 -6.65)
+		(end 18 6.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65eac51a-6f20-4e21-adf5-95e41e4c5572")
+	)
+	(fp_rect
+		(start -17.9 -6.55)
+		(end 17.9 6.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "659c6c0e-d111-48c4-b561-3744c2c83010")
+	)
+	(fp_text user "+"
+		(at -14 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9948e6f9-cb6d-4e54-9776-5841136df17b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 14 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7d79cd3-656f-4c98-b01d-783b9035d5e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "129a3491-5fed-461d-bc1b-c2698aeab122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -15.85 0)
+		(size 1.7 1.9)
+		(drill oval 1 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "501de736-f583-45c7-9cbb-78185fceb6d3")
+	)
+	(pad "2" thru_hole oval
+		(at 15.85 0)
+		(size 1.7 1.9)
+		(drill oval 1 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a865ee7-ff4b-4ac5-97a9-3fc624aca230")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/component_local/model_3d/BH23APC.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

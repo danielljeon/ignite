@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ntr4501nt1g")(type "KiCad")(uri "${KIPRJMOD}/component_local/ntr4501nt1g.kicad_sym")(options "")(descr ""))
+  (lib (name "bh23")(type "KiCad")(uri "${KIPRJMOD}/component_local/bh23.kicad_sym")(options "")(descr ""))
+)
